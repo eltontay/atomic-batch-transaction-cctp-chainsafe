@@ -31,7 +31,7 @@ This demo application showcases the integration of Circle's React Elements with 
 3. Create a `.env` file in the root directory with the following variables:
    ```
    REACT_APP_CIRCLE_API_KEY=your_circle_api_key_here
-    REACT_APP_THIRDWEB_WALLET_CREDENTIAL_ID=your_credential_id_here 
+   REACT_APP_THIRDWEB_WALLET_CREDENTIAL_ID=your_credential_id_here 
    ```
 
 4. For running thirdweb Engine locally, follow the instructions at:
