@@ -30,18 +30,12 @@ This demo application showcases the integration of Circle's React Elements with 
 
 3. Create a `.env` file in the root directory with the following variables:
    ```
-   REACT_APP_ENGINE_URL=http://localhost:3005
-   REACT_APP_USDC_ADDRESS=your_usdc_contract_address
+REACT_APP_CIRCLE_API_KEY=your_circle_api_key_here
+REACT_APP_THIRDWEB_WALLET_CREDENTIAL_ID=your_credential_id_here 
    ```
 
-4. Start thirdweb Engine locally:
-   ```bash
-   docker run -d \
-     -p 3005:3005 \
-     -e THIRDWEB_API_SECRET_KEY=your_api_key \
-     -e ADMIN_WALLET_ADDRESS=your_wallet_address \
-     thirdweb/engine:latest
-   ```
+4. For running thirdweb Engine locally, follow the instructions at:
+   https://github.com/eltontay/thirdweb_engine_circle_pw
 
 5. Start the development server:
    ```bash
